@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FGO | Frans-Galorale Organisations</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      padding: 1em;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      letter-spacing: 1px;
+    }
+
+    header small {
+      font-size: 0.8em;
+      color: #777;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1em;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4em 2em;
+      background: #1a1a1a;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    .hero p {
+      font-size: 1.1em;
+      color: #ccc;
+    }
+
+    .tagline {
+      margin-top: 1em;
+      font-size: 1em;
+      font-style: italic;
+      color: #999;
+    }
+
+    .section {
+      padding: 2em;
+      background: #181818;
+      margin: 1em 0;
+    }
+
+    .section h3 {
+      color: #ccc;
+      margin-bottom: 0.5em;
+    }
+
+    .section p {
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin-top: 1em;
+    }
+
+    input[type="email"] {
+      padding: 0.8em;
+      margin-bottom: 1em;
+      border: none;
+      background: #333;
+      color: #fff;
+    }
+
+    button {
+      padding: 0.8em;
+      border: none;
+      background: #fff;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2em;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FGO <small>(1724)</small></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">The Maze</a></li>
+        <li><a href="#">Writings</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Frans-Galorale Organisations</h2>
+    <p>A space for those finding their way through life’s maze—where purpose, growth, and truth meet.</p>
+    <div class="tagline">SUCCESS IS A RISK WORTH TAKING</div>
+  </section>
+
+  <section class="section">
+    <h3>Why "The Maze"?</h3>
+    <p>Life often feels like a maze—dead ends, wrong turns, long tunnels. FGO isn’t here to give you shortcuts. It’s here to remind you that every twist you take builds who you are becoming. The goal isn’t to escape the maze... it’s to understand it.</p>
+  </section>
+
+  <section class="section">
+    <h3>Want to Stay in Touch?</h3>
+    <p>We’re building steadily. Join the journey and stay updated with writings, projects, and tools that move you forward.</p>
+    <form>
+      <input type="email" placeholder="Your email" required />
+      <button type="submit">Join the Path</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Frans-Galorale Organisations. All rights reserved.</p>
+  </footer>
+</body>
+</html>
